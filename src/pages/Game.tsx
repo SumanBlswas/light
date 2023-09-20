@@ -1,7 +1,12 @@
 import { useState, useEffect } from "react";
 import { Box, Button, Heading, Text, useToast } from "@chakra-ui/react";
+import { useLoggedIn } from "../Context/useLoggedIn";
+import { useNavigate } from "react-router-dom";
 
 const Game = () => {
+  const { isLoggedIn } = useLoggedIn();
+  const navigate = useNavigate();
+
   const [gameStarted, setGameStarted] = useState(false);
   const [gameOver, setGameOver] = useState(false);
   const [score, setScore] = useState(0);
@@ -33,6 +38,11 @@ const Game = () => {
     setTimeLeft(40);
     startColorChange();
   };
+
+  if (!isLoggedIn) {
+    navigate("/login");
+    return null;
+  }
 
   const startColorChange = () => {
     const randomDelay = Math.floor(Math.random() * 1000) + 1000;
