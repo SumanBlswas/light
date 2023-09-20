@@ -3,7 +3,7 @@
 <h3>Rannaghar is a leading recipe website. Witness the magic of tastes unfold here, where every recipe is a doorway to a new dimension of thought. This Project Fully Built by me within 48 Hours.
 </h3>
 
-# Deployed URL 👉 [Click here](https://rannaghar.vercel.app/)
+# Deployed URL 👉 [Click here](https://light-cuvo.vercel.app/)
 
 # Installation
 
@@ -21,7 +21,6 @@
 - Deployed Frontend to Vercel
 - Node + Express + MongoDB + JWT + bCrypt For Backend
 - Deployed Backend to Render
-
 
 <br/>
 <h4 align="center">💻 Tech Stack</h4>
@@ -48,16 +47,9 @@
 
 ## Let's Dive into What I have made
 
-
-
-
-
-
-
-
 ## Home Page :
 
-![HomePage](https://github.com/SumanBlswas/Rannaghar/assets/112753516/b193f33b-abb7-4695-97b5-1b9fc2329106)
+![HomePage](https://github.com/SumanBlswas/light/assets/112753516/bb803fb7-688b-4c7c-9ac3-de88e50abc69)
 
 ## Sign-Up Page :
 
@@ -66,19 +58,6 @@
 ## Login Page :
 
 ![LoginPage](https://github.com/SumanBlswas/Rannaghar/assets/112753516/d7600bd8-225a-46af-b58d-8cbb62ff0794)
-
-## Account Page :
-
-![Account](https://github.com/SumanBlswas/Rannaghar/assets/112753516/7f5a6164-5bc8-4a9c-aabf-376bccf1b565)
-
-## Recipe Page :
-
-![RecipePage](https://github.com/SumanBlswas/Rannaghar/assets/112753516/1c5c7d8b-aae6-44e6-9b31-3d1ca9884666)
-
-## Favourite Page :
-
-![Favourite](https://github.com/SumanBlswas/Rannaghar/assets/112753516/20fadec3-26ff-4086-83b6-00883658c295)
-
 
 ## My Learnings
 
@@ -92,13 +71,15 @@ On this journey I faced many issues, but I keep motivated myself with patience.
 
 - I also got a glimpse of using GitHub for the version control.
 
-## Source Code(GitHub link):- 
-- Frontend: https://github.com/SumanBlswas/Rannaghar
-- Backend: https://github.com/SumanBlswas/Rannaghar_backend
+## Source Code(GitHub link):-
+
+- Frontend: https://github.com/SumanBlswas/light
+- Backend: https://github.com/SumanBlswas/light_backend
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
 ### Thank you
+
 # light
