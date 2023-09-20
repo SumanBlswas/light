@@ -14,6 +14,9 @@ const Game = () => {
   const toast = useToast();
 
   useEffect(() => {
+    if (!isLoggedIn) {
+      navigate("/login");
+    }
     let timer: any;
     if (gameStarted && !gameOver) {
       timer = setInterval(() => {
@@ -38,11 +41,6 @@ const Game = () => {
     setTimeLeft(40);
     startColorChange();
   };
-
-  if (!isLoggedIn) {
-    navigate("/login");
-    return null;
-  }
 
   const startColorChange = () => {
     const randomDelay = Math.floor(Math.random() * 1000) + 1000;
