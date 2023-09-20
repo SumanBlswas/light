@@ -1,0 +1,7 @@
+.recipe_card {
+  transition: transform 0.2s;
+}
+
+.recipe_card:hover {
+  transform: scale(1.05);
+}
